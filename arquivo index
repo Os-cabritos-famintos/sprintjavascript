@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EcoTech Solutions</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>EcoTech Solutions</h1>
+	<p>Selecione um recurso para obter mais informações:</p>
+	<select id="recursos">
+		<option value="energia">Energias renováveis</option>
+		<option value="construcoes">Construções sustentáveis</option>
+		<option value="transportes">Transportes sustentáveis</option>
+	</select>
+	<button id="botao">Obter informações</button>
+	<div id="resultado"></div>
+
+	<script src="meuScript.js"></script>
+</body>
+</html>
