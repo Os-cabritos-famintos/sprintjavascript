@@ -1,0 +1,27 @@
+const recursos = {
+	energia: {
+		nome: 'Energias renováveis',
+		descricao: 'Outro aspecto importante da sustentabilidade é a utilização de energias renováveis. As empresas podem investir em fontes de energia limpa, como a solar e a eólica, para reduzir sua pegada de carbono. A tecnologia pode ajudar nesse processo, com soluções inteligentes para o armazenamento e distribuição de energia alem de sistemas de monitoramento e controle para carantir a eficiência energética.',
+	},
+	construcoes: {
+		nome: 'Construções sustentáveis',
+		descricao: 'As construções são responsáveis por grande parte do consumo de recursos naturais e emissão de gases do efeito estufa. As empresas podem investir em construçoes sustentaveis, utilizando materiais eco friendly e sistemas de eficiência energética. A tecnologia pode ajudar nesse processo, com soluções para monitorar e controlar o consumo de energia e água, além de sistemas inteligentes para o gerenciamento de resíduos e manutenção predial.'
+	},
+	transportes: {
+		nome: 'Transportes sustentáveis',
+		descricao: 'Um dos maiores desafios das cidades é o trânsito caótico e a poluição gerada pelos veículos. As empresas podem contribuir com soluções de transporte sustentável, como carros elétricos, bicicletas compartilhadas e transporte público eficiente. A tecnologia pode ajudar nesse processo, com aplicativos que facilitam o acesso ao transporte público sistemas de compartilhamento de carros e bicicletas. Além de soluções inteligentes para o gerenciamento do trânsito.',
+	},
+};
+
+const select = document.querySelector('#recursos');
+const botao = document.querySelector('#botao');
+const resultado = document.querySelector('#resultado');
+
+botao.addEventListener('click', () => {
+	const recursoSelecionado = select.value;
+	const recurso = recursos[recursoSelecionado];
+	resultado.innerHTML = `
+		<h2>${recurso.nome}</h2>
+		<p>${recurso.descricao}</p>
+	`;
+});
