@@ -1,0 +1,23 @@
+RM: 550161 - Eduardo Osorio Filho
+RM: 550610 - Fabio Hideki Kamikihara
+RM: 99696 - Luan Ramos Teixeira
+RM: 550260 - Pedro Moura Barros
+
+
+-EcoTech Solutions
+Este é um projeto de uma página web simples que apresenta informações sobre soluções sustentáveis em três áreas: Energias renováveis, Construções sustentáveis e 
+Transportes sustentáveis.
+
+-Tecnologias utilizadas
+HTML
+CSS
+JavaScript
+
+-Como utilizar
+Ao abrir a página web, você deve selecionar uma das opções disponíveis no menu suspenso, escolhendo entre "Energias renováveis", "Construções sustentáveis" e 
+"Transportes sustentáveis". Após a seleção, clique no botão "Obter informações" para visualizar as informações sobre a opção selecionada.
+
+-Descrição do código
+O código JavaScript define um objeto chamado "recursos" que contém as informações sobre as soluções sustentáveis nas três áreas. O evento "click" do botão é definido 
+usando o método "addEventListener". Quando o botão é clicado, a opção selecionada no menu suspenso é armazenada em uma variável e as informações correspondentes 
+são exibidas na página usando a propriedade "innerHTML".
